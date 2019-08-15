@@ -38,6 +38,11 @@ namespace Parcial1_Base.Logic
         {
             Name = name;
         }
+        public Doll(string name, List<Accessory> accesorio)
+        {
+            Name = name;
+            accesorio = accessories;
+        }
 
         /// <summary>
         /// Removes the given accessory.

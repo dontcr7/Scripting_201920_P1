@@ -54,5 +54,17 @@
         {
             return new Dress(style, Color, Category);
         }
+        public void ColorVestido(EColor a)
+        {
+            a = EColor;
+        }
+        public void TipoVestido(EDressCategory b)
+        {
+            b = EDressCategory;
+        }
+       public void Equipar()
+        {
+
+        }
     }
 }
